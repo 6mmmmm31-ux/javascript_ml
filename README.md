@@ -1,7 +1,7 @@
 # javascript_ml
 کتابخانه های جدیدی از جاوااسکریپت. کتابخانه هایی که تا به حال نداشتید و ندیدید. کتابخانه هایی جدید.
 # توجه:
-  این کتابخانه ها ساخته شده اند و جدید هستند. جهت کار با کتابخانه، از مدل هوش مصنوعی استفاده کنید تا نحوه کار را به شما بگوید.
+  این کتابخانه ها ساخته شده اند و جدید هستند. جهت کار با کتابخانه، از مدل هوش مصنوعی استفاده کنید تا نحوه کار را به شما بگوید. خیلی عذر میخواهیم.
 # فایل ها 👇👇
 csv.js:
 کتابخانه کار با csv
@@ -44,7 +44,7 @@ file2.js:
 # javascript_ml
 New JavaScript libraries. Libraries you've never had or seen before. New libraries.
 # Note:
-These libraries are built and new. To work with the library, use the AI ​​model to tell you how to work.
+These libraries are built and new. To work with the library, use the AI ​​model to tell you how to work. We apologize profusely.
 # Files 👇👇
 csv.js:
 Library for working with csv
