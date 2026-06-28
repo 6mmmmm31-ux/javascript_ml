@@ -41,6 +41,9 @@ fileAml.js:
 کتابخونه با توابع زیاد در حوزه های مختلف.
 file2.js:
 کار با فایل.
+# درباره ما
+من ۱۰ سالمه. این کتابخونه‌ها رو خودم با یه گوشی معمولی نوشتم. انتظار کتابخونه‌های بزرگ نداشته باشید.
+
 # javascript_ml
 New JavaScript libraries. Libraries you've never had or seen before. New libraries.
 # Note:
@@ -84,3 +87,5 @@ fileAml.js:
 Library with many functions in different areas.
 file2.js:
 Working with files.
+# About Us
+I am 10 years old. I wrote these libraries myself with a regular phone. Don't expect big libraries.
