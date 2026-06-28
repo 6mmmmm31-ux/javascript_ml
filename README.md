@@ -41,3 +41,46 @@ fileAml.js:
 کتابخونه با توابع زیاد در حوزه های مختلف.
 file2.js:
 کار با فایل.
+# javascript_ml
+New JavaScript libraries. Libraries you've never had or seen before. New libraries.
+# Note:
+These libraries are built and new. To work with the library, use the AI ​​model to tell you how to work.
+# Files 👇👇
+csv.js:
+Library for working with csv
+json.js:
+Library for working with json
+xml.js:
+Working with xml
+math.js:
+Math library +200 functions
+datetime.js:
+Working with date and time.
+color.js:
+Working with colors.
+string.js:
+Working with text.
+txt.ml_id.js:
+Library for building a text recognition and understanding model.
+txt.ml_new.js:
+Building a text model.
+img.ml_id.js:
+Building an image analysis model.
+img.ml_new.js:
+Building an image generation model.
+ adu.ml_id.js:
+Build a voice recognition model.
+adu.ml_new.js:
+Build a voice generation model.
+vdo.ml_id.js:
+Video analysis model.
+vdo.ml_new.js:
+Build a video generation model.
+log.ml_id.js:
+Pattern recognition
+svg_to_png.js:
+Convert vector images to pixels.
+fileAml.js:
+Library with many functions in different areas.
+file2.js:
+Working with files.
