@@ -1,7 +1,7 @@
 # javascript_ml
 کتابخانه های جدیدی از جاوااسکریپت. کتابخانه هایی که تا به حال نداشتید و ندیدید. کتابخانه هایی جدید.
 # توجه:
-  این کتابخانه ها ساخته شده اند و جدید هستند. جهت کار با کتابخانه، از مدل هوش مصنوعی استفاده کنید تا نحوه کار را به شما بگوید. خیلی عذر میخواهیم. نظر خود را در مورد این کتابخانه ها بنویسید تا همکاران شما مطمئن شوند. اگر راضی بودید روی ☆ کلیک کنید. اما چندین مثال در فایل test.json وجود دارد.
+  این کتابخانه ها ساخته شده اند و جدید هستند. جهت کار با کتابخانه، از مدل هوش مصنوعی استفاده کنید تا نحوه کار را به شما بگوید. خیلی عذر میخواهیم. نظر خود را در مورد این کتابخانه ها بنویسید تا همکاران شما مطمئن شوند. اگر راضی بودید روی ☆ کلیک کنید. اما چندین مثال در فایل test.json وجود دارد. همچنین باید ذکر شود کتابخانه های یادگیری ماشین برای مدل های متوسط رو به بالا هم مناسب هستند. اما اگر پروژه از متوسط فاصله زیادی داشته باشد مناسب نیست.
 # فایل ها 👇👇
 csv.js:
 کتابخانه کار با csv
@@ -47,7 +47,7 @@ file2.js:
 # javascript_ml
 New JavaScript libraries. Libraries you've never had or seen before. New libraries.
 # Note:
-These libraries are built and new. To work with the library, use the AI ​​model to tell you how to work. We apologize profusely. Write your opinion about these libraries so that your colleagues can be sure. If you are satisfied, click ☆. But there are several examples in the test.json file.
+These libraries are built and new. To work with the library, use the AI ​​model to tell you how to work. We apologize profusely. Write your opinion about these libraries so that your colleagues can be sure. If you are satisfied, click ☆. But there are several examples in the test.json file. It should also be noted that machine learning libraries are suitable for medium-to-high models, but are not suitable if the project is far from average.
 # Files 👇👇
 csv.js:
 Library for working with csv
