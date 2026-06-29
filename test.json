@@ -1,0 +1,117 @@
+{
+  "csv.js": [
+    "CSV.parse('name,age\\nAli,25\\nSara,30') => [{name:'Ali', age:25}, {name:'Sara', age:30}]",
+    "CSV.stringify([{name:'Ali', age:25}, {name:'Sara', age:30}]) => 'name,age\\nAli,25\\nSara,30'",
+    "CSV.toArray('a,b,c\\n1,2,3') => [['a','b','c'], ['1','2','3']]"
+  ],
+  "json.js": [
+    "JSON.minify('{ \"name\": \"Ali\", \"age\": 25 }') => {name:'Ali', age:25}",
+    "JSON.validate('{\"name\":\"Ali\"}') => true",
+    "JSON.sortKeys({b:2, a:1, c:3}) => {a:1, b:2, c:3}"
+  ],
+  "xml.js": [
+    "XML.parse('<user><name>Ali</name><age>25</age></user>') => {user:{name:'Ali', age:25}}",
+    "XML.stringify({user:{name:'Ali', age:25}}) => '<user><name>Ali</name><age>25</age></user>'",
+    "XML.toJSON('<items><item id=\"1\">book</item></items>') => {items:{item:{_attr:{id:1}, _text:'book'}}}"
+  ],
+  "math.js": [
+    "Math.factorial(5) => 120",
+    "Math.isPrime(17) => true",
+    "Math.radians(180) => 3.141592653589793",
+    "Math.degrees(Math.PI) => 180",
+    "Math.average([1,2,3,4,5]) => 3",
+    "Math.median([1,3,5,7,9]) => 5",
+    "Math.percentage(20, 200) => 10",
+    "Math.randomInt(1, 10) => 7 (مثال)",
+    "Math.gcd(12, 18) => 6",
+    "Math.lcm(4, 6) => 12"
+  ],
+  "datetime.js": [
+    "DateTime.now() => '2026-06-29 14:30:00'",
+    "DateTime.format(new Date(), 'YYYY-MM-DD') => '2026-06-29'",
+    "DateTime.addDays(new Date(), 7) => '2026-07-06 14:30:00'",
+    "DateTime.diffDays('2026-06-29', '2026-07-06') => 7",
+    "DateTime.isLeapYear(2024) => true",
+    "DateTime.toPersian(new Date()) => '1405-04-08' (مثال)"
+  ],
+  "color.js": [
+    "Color.hexToRgb('#FF5733') => {r:255, g:87, b:51}",
+    "Color.rgbToHex(255, 87, 51) => '#FF5733'",
+    "Color.lighten('#FF5733', 20) => '#FF8A66'",
+    "Color.darken('#FF5733', 20) => '#CC3300'",
+    "Color.isDark('#FF5733') => false",
+    "Color.random() => '#A3F7B9' (مثال)"
+  ],
+  "string.js": [
+    "String.reverse('hello') => 'olleh'",
+    "String.isPalindrome('radar') => true",
+    "String.countWords('Hello world!') => 2",
+    "String.truncate('Hello world', 5) => 'Hello...'",
+    "String.capitalize('hello world') => 'Hello World'",
+    "String.slugify('Hello World!') => 'hello-world'"
+  ],
+  "txt.ml_id.js": [
+    "TextML.analyze('این متن درباره کامپیوتر است') => {topic:'تکنولوژی', confidence:0.85}",
+    "TextML.detectLanguage('Hello world') => 'en'",
+    "TextML.sentiment('I love this!') => {score:0.9, label:'positive'}"
+  ],
+  "txt.ml_new.js": [
+    "TextML.generate('once upon a time') => 'there was a brave knight...'",
+    "TextML.summarize('Long text...', 50) => 'خلاصه‌ای از متن...'",
+    "TextML.translate('Hello', 'fa') => 'سلام'"
+  ],
+  "img.ml_id.js": [
+    "ImageML.classify('image.jpg') => [{label:'cat', confidence:0.95}, {label:'dog', confidence:0.03}]",
+    "ImageML.detectFaces('image.jpg') => [{x:10, y:20, width:50, height:50}]",
+    "ImageML.readText('image.jpg') => 'Hello World'"
+  ],
+  "img.ml_new.js": [
+    "ImageML.generate('a red apple') => 'image_data_base64'",
+    "ImageML.edit('image.jpg', 'make it brighter') => 'image_data_base64'",
+    "ImageML.styleTransfer('image.jpg', 'van Gogh') => 'image_data_base64'"
+  ],
+  "adu.ml_id.js": [
+    "AudioML.transcribe('audio.wav') => 'Hello world'",
+    "AudioML.detectLanguage('audio.wav') => 'en'",
+    "AudioML.speakerIdentify('audio.wav') => 'Ali'"
+  ],
+  "adu.ml_new.js": [
+    "AudioML.textToSpeech('Hello world') => 'audio_data_base64'",
+    "AudioML.changeVoice('audio.wav', 'deep') => 'audio_data_base64'",
+    "AudioML.generateMusic('piano melody') => 'audio_data_base64'"
+  ],
+  "vdo.ml_id.js": [
+    "VideoML.analyzeFrames('video.mp4') => [{frame:1, objects:['car','person']}]",
+    "VideoML.detectMotion('video.mp4') => [{time:2, area:50}]",
+    "VideoML.extractFrames('video.mp4', 30) => ['frame1.jpg','frame2.jpg']"
+  ],
+  "vdo.ml_new.js": [
+    "VideoML.generate('a dog running') => 'video_data_base64'",
+    "VideoML.edit('video.mp4', 'add filter') => 'video_data_base64'",
+    "VideoML.combine(['video1.mp4','video2.mp4']) => 'combined_video.mp4'"
+  ],
+  "log.ml_id.js": [
+    "LogML.patternDetect([1,2,3,5,8]) => {pattern:'fibonacci', next:13}",
+    "LogML.anomalyDetection([100,102,98,200,101]) => [{index:3, value:200}]",
+    "LogML.predictNext([1,3,5,7]) => 9"
+  ],
+  "svg_to_png.js": [
+    "SVG.toPNG('<svg>...</svg>') => 'image_data_base64'",
+    "SVG.toPNG('image.svg', 200, 200) => 'image_data_base64'",
+    "SVG.toPNG('<svg>...</svg>', 100, 100) => 'image_data_base64'"
+  ],
+  "fileAml.js": [
+    "File.isImage('photo.jpg') => true",
+    "File.getSize('document.pdf') => 1024",
+    "File.convert('document.docx', 'pdf') => 'converted_file.pdf'",
+    "File.compress('image.jpg', 80) => 'compressed_image.jpg'",
+    "File.merge(['file1.txt','file2.txt']) => 'merged_file.txt'"
+  ],
+  "file2.js": [
+    "File2.read('data.txt') => 'content of file'",
+    "File2.write('output.txt', 'Hello world') => true",
+    "File2.copy('source.txt', 'dest.txt') => true",
+    "File2.delete('temp.txt') => true",
+    "File2.listFiles('./folder') => ['file1.txt','file2.jpg']"
+  ]
+}
